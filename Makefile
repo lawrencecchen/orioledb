@@ -127,7 +127,8 @@ TESTGRESCHECKS_PART_2 = t/checkpoint_concurrent_test.py \
 						t/checkpoint_update_test.py \
 						t/checkpoint_update_compress_test.py \
 						t/eviction_full_memory_test.py \
-						t/indices_build_test.py
+						t/indices_build_test.py \
+						t/trigger_test.py
 
 ifdef USE_PGXS
 PG_CONFIG = pg_config
